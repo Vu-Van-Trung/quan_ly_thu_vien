@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DoAnDemoUI</RootNamespace>
+    <AssemblyName>DoAnDemoUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\ThuVienContext.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202512061316113_InitialCreate.cs" />
+    <Compile Include="Migrations\202512061316113_InitialCreate.Designer.cs">
+      <DependentUpon>202512061316113_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\CTPhieuMuon.cs" />
+    <Compile Include="Model\CTPhieuPhat.cs" />
+    <Compile Include="Model\DocGia.cs" />
+    <Compile Include="Model\NhanVien.cs" />
+    <Compile Include="Model\NhaXuatBan.cs" />
+    <Compile Include="Model\PhieuMuon.cs" />
+    <Compile Include="Model\PhieuPhat.cs" />
+    <Compile Include="Model\Sach.cs" />
+    <Compile Include="Model\TacGia.cs" />
+    <Compile Include="Model\TheLoai.cs" />
+    <Compile Include="Model\TheThuVien.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="QLMuonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLMuonSach.Designer.cs">
+      <DependentUpon>QLMuonSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QlNhaXuatBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QlNhaXuatBan.Designer.cs">
+      <DependentUpon>QlNhaXuatBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLiSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLiSach.Designer.cs">
+      <DependentUpon>QuanLiSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLiThuVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLiThuVien.Designer.cs">
+      <DependentUpon>QuanLiThuVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyDonHang.Designer.cs">
+      <DependentUpon>QuanLyDonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QlTheThuVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QlTheThuVien.Designer.cs">
+      <DependentUpon>QlTheThuVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNhanVien.Designer.cs">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202512061316113_InitialCreate.resx">
+      <DependentUpon>202512061316113_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLMuonSach.resx">
+      <DependentUpon>QLMuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QlNhaXuatBan.resx">
+      <DependentUpon>QlNhaXuatBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QuanLiSach.resx">
+      <DependentUpon>QuanLiSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLiThuVien.resx">
+      <DependentUpon>QuanLiThuVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyDonHang.resx">
+      <DependentUpon>QuanLyDonHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QlTheThuVien.resx">
+      <DependentUpon>QlTheThuVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNhanVien.resx">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>

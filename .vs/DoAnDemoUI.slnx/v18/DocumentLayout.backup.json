@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\doandemoui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|solutionrelative:doandemoui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\doandemoui\\quanlynhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|solutionrelative:doandemoui\\quanlynhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|c:\\users\\vuvan\\desktop\\doandemoui\\doandemoui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|solutionrelative:doandemoui\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\doandemoui\\quanlithuvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|solutionrelative:doandemoui\\quanlithuvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\doandemoui\\qlmuonsach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|solutionrelative:doandemoui\\qlmuonsach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\doandemoui\\qlmuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BEB9AD1-461F-4104-BE69-8758CC8B08AF}|DoAnDemoUI\\DoAnDemoUI.csproj|solutionrelative:doandemoui\\qlmuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyNhanVien.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLyNhanVien.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnDemoUI\\QuanLyNhanVien.Designer.cs",
+              "ToolTip": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLyNhanVien.Designer.cs",
+              "RelativeToolTip": "DoAnDemoUI\\QuanLyNhanVien.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:03:30.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "DoAnDemoUI\\QuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLyNhanVien.cs",
+              "RelativeToolTip": "DoAnDemoUI\\QuanLyNhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:03:23.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLyNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLyNhanVien.cs",
+              "RelativeDocumentMoniker": "DoAnDemoUI\\QuanLyNhanVien.cs",
+              "ToolTip": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLyNhanVien.cs [Design]",
+              "RelativeToolTip": "DoAnDemoUI\\QuanLyNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:01:07.519Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLiThuVien.cs",
+              "DocumentMoniker": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLiThuVien.cs",
+              "RelativeDocumentMoniker": "DoAnDemoUI\\QuanLiThuVien.cs",
+              "ToolTip": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QuanLiThuVien.cs",
+              "RelativeToolTip": "DoAnDemoUI\\QuanLiThuVien.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAwIgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T14:04:20.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLMuonSach.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QLMuonSach.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnDemoUI\\QLMuonSach.Designer.cs",
+              "ToolTip": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QLMuonSach.Designer.cs",
+              "RelativeToolTip": "DoAnDemoUI\\QLMuonSach.Designer.cs",
+              "ViewState": "AgIAAHgBAAAAAAAAAAAAAIUBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T14:05:12.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QLMuonSach.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vuvan\\Desktop\\DoAnDemoUI\\DoAnDemoUI\\QLMuonSach.cs",
+              "RelativeDocumentMoniker": "DoAnDemoUI\\QLMuonSach.cs",
+              "ToolTip": "C:\\Users\\HI\\source\\repos\\DoAnDemoUI\\DoAnDemoUI\\QLMuonSach.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\HI\\source\\repos\\DoAnDemoUI\\DoAnDemoUI\\QLMuonSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T14:01:56.317Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
