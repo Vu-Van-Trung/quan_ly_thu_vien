@@ -19,7 +19,6 @@ namespace DoAnDemoUI
         private TextBox txtPassword;
         private Button btnLogin;
         private Button btnCancel;
-        private CheckBox chkRemember;
         private LinkLabel lnkForgot;
         private ErrorProvider errorProvider1;
 
@@ -47,9 +46,9 @@ namespace DoAnDemoUI
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.chkRemember = new System.Windows.Forms.CheckBox();
             this.lnkForgot = new System.Windows.Forms.LinkLabel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.dktk = new System.Windows.Forms.Label();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -95,7 +94,7 @@ namespace DoAnDemoUI
             this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblUsername.Location = new System.Drawing.Point(213, 110);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(107, 20);
+            this.lblUsername.Size = new System.Drawing.Size(138, 20);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Tên đăng nhập.NV1";
             this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
@@ -107,6 +106,7 @@ namespace DoAnDemoUI
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(320, 27);
             this.txtUsername.TabIndex = 2;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // lblPassword
             // 
@@ -114,7 +114,7 @@ namespace DoAnDemoUI
             this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblPassword.Location = new System.Drawing.Point(213, 163);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(70, 20);
+            this.lblPassword.Size = new System.Drawing.Size(97, 20);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Mật khẩu.123";
             // 
@@ -126,6 +126,7 @@ namespace DoAnDemoUI
             this.txtPassword.Size = new System.Drawing.Size(320, 27);
             this.txtPassword.TabIndex = 4;
             this.txtPassword.UseSystemPasswordChar = true;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
             // 
             // btnLogin
@@ -134,7 +135,7 @@ namespace DoAnDemoUI
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(217, 249);
+            this.btnLogin.Location = new System.Drawing.Point(217, 240);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(150, 34);
             this.btnLogin.TabIndex = 7;
@@ -147,29 +148,18 @@ namespace DoAnDemoUI
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCancel.Location = new System.Drawing.Point(387, 249);
+            this.btnCancel.Location = new System.Drawing.Point(398, 240);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(150, 34);
             this.btnCancel.TabIndex = 8;
             this.btnCancel.Text = "Hủy";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // chkRemember
-            // 
-            this.chkRemember.AutoSize = true;
-            this.chkRemember.Font = new System.Drawing.Font("Segoe UI", 8.5F);
-            this.chkRemember.Location = new System.Drawing.Point(217, 219);
-            this.chkRemember.Name = "chkRemember";
-            this.chkRemember.Size = new System.Drawing.Size(157, 24);
-            this.chkRemember.TabIndex = 5;
-            this.chkRemember.Text = "Ghi nhớ đăng nhập";
-            this.chkRemember.CheckedChanged += new System.EventHandler(this.chkRemember_CheckedChanged);
-            // 
             // lnkForgot
             // 
             this.lnkForgot.AutoSize = true;
             this.lnkForgot.Font = new System.Drawing.Font("Segoe UI", 8.5F);
-            this.lnkForgot.Location = new System.Drawing.Point(421, 219);
+            this.lnkForgot.Location = new System.Drawing.Point(421, 304);
             this.lnkForgot.Name = "lnkForgot";
             this.lnkForgot.Size = new System.Drawing.Size(116, 20);
             this.lnkForgot.TabIndex = 6;
@@ -181,17 +171,28 @@ namespace DoAnDemoUI
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // dktk
+            // 
+            this.dktk.AutoSize = true;
+            this.dktk.ForeColor = System.Drawing.Color.Blue;
+            this.dktk.Location = new System.Drawing.Point(232, 304);
+            this.dktk.Name = "dktk";
+            this.dktk.Size = new System.Drawing.Size(132, 20);
+            this.dktk.TabIndex = 9;
+            this.dktk.Text = "Đăng Ký Tài Khoản";
+            this.dktk.Click += new System.EventHandler(this.dktk_Click);
+            // 
             // Login
             // 
             this.AcceptButton = this.btnLogin;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(812, 380);
+            this.Controls.Add(this.dktk);
             this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.chkRemember);
             this.Controls.Add(this.lnkForgot);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnCancel);
@@ -212,5 +213,7 @@ namespace DoAnDemoUI
             this.PerformLayout();
 
         }
+
+        private Label dktk;
     }
 }
