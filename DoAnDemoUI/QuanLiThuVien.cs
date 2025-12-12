@@ -41,7 +41,7 @@ namespace DoAnDemoUI
             AddMenuAction("QuanLyDonHang", "Quản lý đơn hàng", () => OpenOrActivateChild(typeof(QuanLyDonHang)));
             AddMenuAction("QuanLyMuonSach", "Quản lý Mượn Sách", () => OpenOrActivateChild(typeof(QLMuonSach)));
             AddMenuAction("TheThuVien", "Quản lý Thẻ Thư Viện", () => OpenOrActivateChild(typeof(QlTheThuVien)));
-            AddMenuAction("QuanLyNhanVien", "Quản lý Nhân Viên", () => OpenOrActivateChild(typeof(QuanLyNhanVien)));
+           // AddMenuAction("QuanLyNhanVien", "Quản lý Nhân Viên", () => OpenOrActivateChild(typeof(QuanLyNhanVien)));
 
         }
 
@@ -156,6 +156,9 @@ namespace DoAnDemoUI
   
         private void mniDangXuat_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Đăng xuất thành công!", "Đăng xuất", MessageBoxButtons.OK, MessageBoxIcon.Information); 
+            Login loginForm = new Login();
+            loginForm.Show();
             this.Close();
         }
 
@@ -191,6 +194,11 @@ namespace DoAnDemoUI
                     ctl.BackColor = Color.FromArgb(240, 242, 245);
                 }
             }
+        }
+
+        private void mnuHeThong_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

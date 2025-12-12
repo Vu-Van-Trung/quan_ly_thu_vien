@@ -62,24 +62,24 @@ namespace DoAnDemoUI
             this.mnuHeThong.Name = "mnuHeThong";
             this.mnuHeThong.Size = new System.Drawing.Size(88, 24);
             this.mnuHeThong.Text = "Hệ thống";
+            this.mnuHeThong.Click += new System.EventHandler(this.mnuHeThong_Click);
             // 
             // mniDangXuat
             // 
             this.mniDangXuat.Name = "mniDangXuat";
-            this.mniDangXuat.Size = new System.Drawing.Size(162, 26);
+            this.mniDangXuat.Size = new System.Drawing.Size(224, 26);
             this.mniDangXuat.Text = "Đăng xuất";
             this.mniDangXuat.Click += new System.EventHandler(this.mniDangXuat_Click);
             // 
             // mniThoat
             // 
             this.mniThoat.Name = "mniThoat";
-            this.mniThoat.Size = new System.Drawing.Size(162, 26);
+            this.mniThoat.Size = new System.Drawing.Size(224, 26);
             this.mniThoat.Text = "Thoát";
             this.mniThoat.Click += new System.EventHandler(this.mniThoat_Click);
             // 
             // pnlLeft
             // 
-            // Thay đổi màu nền Sidebar sang màu tối hiện đại
             this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.pnlLeft.Controls.Add(this.lstMenu);
             this.pnlLeft.Controls.Add(this.lblMenuHeader);
@@ -92,26 +92,24 @@ namespace DoAnDemoUI
             // 
             // lstMenu
             // 
-            // Chỉnh sửa ListBox để hòa nhập với Sidebar
             this.lstMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.lstMenu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lstMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lstMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lstMenu.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.lstMenu.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lstMenu.FormattingEnabled = true;
             this.lstMenu.IntegralHeight = false;
             this.lstMenu.ItemHeight = 25;
-            this.lstMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lstMenu.Location = new System.Drawing.Point(0, 65);
             this.lstMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lstMenu.Name = "lstMenu";
-            this.lstMenu.Padding = new System.Windows.Forms.Padding(10, 5, 0, 0); // Thêm padding cho chữ
             this.lstMenu.Size = new System.Drawing.Size(260, 560);
             this.lstMenu.TabIndex = 0;
             // 
             // lblMenuHeader
             // 
-            this.lblMenuHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94))))); // Màu header nhạt hơn chút
+            this.lblMenuHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.lblMenuHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblMenuHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblMenuHeader.ForeColor = System.Drawing.Color.White;
@@ -137,8 +135,8 @@ namespace DoAnDemoUI
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "QuanLiThuVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized; // Tự động phóng to toàn màn hình
             this.Text = "Hệ thống Quản lý Thư Viện";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.QuanLiThuVien_Load_1);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
